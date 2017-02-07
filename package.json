@@ -1,0 +1,30 @@
+{
+    "name": "baller",
+    "description": "Added rainbows n shiz to casper",
+    "demo": "n/a",
+    "version": "0.1.0",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Ghost Foundation",
+        "email": "hello@ghost.org",
+        "url": "https://ghost.org"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ]
+}
