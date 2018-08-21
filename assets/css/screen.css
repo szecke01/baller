@@ -407,7 +407,8 @@ table td {
     line-height: 20px;
     text-align: left;
     vertical-align: top;
-    border-top: #EFEFEF 1px solid;
+    border: #EFEFEF 1px solid;
+    
 }
 
 table th { color: #000; }
