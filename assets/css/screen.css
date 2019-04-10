@@ -2247,6 +2247,35 @@ body.page-template .post-title {
     }
 }
 
+.kg-width-wide img {
+  max-width: 85vw;
+}
+
+.kg-width-full img {
+  max-width: 100vw;
+}
+
+.kg-gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em auto;
+    max-width: 1040px;
+    width: 100vw;
+}
+
+.kg-gallery-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kg-gallery-image img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
