@@ -180,6 +180,7 @@ html {
     max-height: 100%;
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 body {
@@ -194,6 +195,7 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
+    overflow: auto;
 }
 
 ::-moz-selection {
@@ -2282,13 +2284,24 @@ body.page-template .post-title {
    ========================================================================== */
 
 @media (prefers-color-scheme: dark) {
-  .post, .site-wrapper, h1, h2, h3, h4, h5, h6 {
-    background-color: #444;
+  .site-wrapper,h1, h2, h3, h4, h5, h6 {
     color: #e4e4e4;
   }
+
+  .site-wrapper{
+    background-color: #444;
+    background-attachment: fixed;
+    
+  }
+
   a {
+    color: #8cd0d3;
+  }
+
+  a:hover {
     color: #e39777;
   }
+
   img {
     filter: grayscale(30%);
   }
