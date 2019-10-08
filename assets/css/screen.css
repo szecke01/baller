@@ -2291,7 +2291,11 @@ body.page-template .post-title {
   .site-wrapper{
     background-color: #444;
     background-attachment: fixed;
-    
+
+  }
+
+  code, tt {
+    background: #666;
   }
 
   a {
@@ -2306,7 +2310,6 @@ body.page-template .post-title {
     filter: grayscale(30%);
   }
 }
-
 /* ==========================================================================
    End of file. Dark mode  should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
