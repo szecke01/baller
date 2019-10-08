@@ -2282,7 +2282,7 @@ body.page-template .post-title {
    ========================================================================== */
 
 @media (prefers-color-scheme: dark) {
-  body {
+  .post, .site-wrapper, h1, h2, h3, h4, h5, h6 {
     background-color: #444;
     color: #e4e4e4;
   }
